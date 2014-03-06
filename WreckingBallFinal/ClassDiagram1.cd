@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WreckingBallFinal.Classes.GameObjects.Brick">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAMAAAgA=</HashCode>
+      <FileName>Classes\GameObjects\Bricks\Brick.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WreckingBallFinal.BrickInstantDestructable">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\GameObjects\Bricks\BrickInstantDestructable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WreckingBallFinal.Classes.GameObjects.Bricks.BrickManager" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAwAAAAABAUAAAAAAAIAAAIAIAAEAAEE=</HashCode>
+      <FileName>Classes\GameObjects\Bricks\BrickManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WreckingBallFinal.BrickNonDestructable">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Classes\GameObjects\Bricks\BrickNonDestructable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WreckingBallFinal.BrickTwoTimesDestructable">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Classes\GameObjects\Bricks\BrickTwoTimesDestructable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WreckingBallFinal.GameObject" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAA4AgAAIAAAAAAAAAAAAAAAIAgAgAAAA=</HashCode>
+      <FileName>Classes\GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WreckingBallFinal.WreckingBall" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAgAACBwAgAAAAAAAAAAAAAAAABEBAAAAEAAQ=</HashCode>
+      <FileName>Classes\GameObjects\WreckingBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WreckingBallFinal.Game1">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAACwACAAAAAEAAAAAAAAiAQIAAAAAAAAQ=</HashCode>
+      <FileName>Classes\General\Game1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="brickManager" />
+      <Field Name="wreckingBall" />
+      <Field Name="mouse" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WreckingBallFinal.MouseHandler" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAEAQAAAAAAAAAAgAAAAAIAAAAAAAAAAAQ=</HashCode>
+      <FileName>Classes\General\MouseHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WreckingBallFinal.Classes.General.ContentManager">
+    <Position X="14" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Classes\General\ContentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WreckingBallFinal.Classes.GameObjects.ICollidable" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\GameObjects\ICollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
